@@ -108,6 +108,86 @@ const MOCK_EMAILS = [
     ]
   },
   {
+    id: 200,
+    sender: 'Shubham Sharma',
+    senderEmail: 'shubhamsharma@smallfare.comm',
+    avatarLetter: 'S',
+    avatarColor: 'orange',
+    subject: 'Offer Letter from Small Fare Pvt. Ltd.',
+    preview: 'Dear Ayush, We are......',
+    body: `Dear Ayush,
+
+
+We are pleased to inform you that you have been selected for an opportunity with Small Fare Pvt. Ltd..
+
+Please find attached your Small Fare internship letter - Ayush Shah for your review. The document contains details regarding your role, responsibilities, and terms of engagement.
+
+We request you to carefully go through the offer letter and confirm your acceptance as per the instructions mentioned in the document.
+
+In case of any queries or clarifications, feel free to reach out to us.
+
+
+We look forward to having you onboard and wish you a successful journey with us.
+
+
+Best Regards,
+Shubham Sharma
+Small Fare Pvt. Ltd.`,
+    time: '11 Apr',
+    date: '11 Apr',
+    isUnread: false,
+    isStarred: true,
+    category: 'primary',
+    hasAttachment: true,
+    attachments: [
+      { type: 'pdf', name: 'Offer Letter', url: './Offer Letter.pdf', size: '1MB' }
+    ]
+  },
+  {
+    id: 201,
+    sender: 'HR Team - Smallfare',
+    senderEmail: 'hr@smallfare.comm',
+    avatarLetter: 'S',
+    avatarColor: 'orange',
+    subject: 'Your Performance Report – Smallfare',
+    preview: 'Dear Ayush, We are......',
+    body: `Dear Ayush,
+
+
+Hope this message finds you well.
+
+As requested, please find attached your Performance Report for Q1 2025. The report provides a comprehensive overview of your contributions, achievements, and areas of growth during the quarter.
+
+The document includes the following sections:
+
+Overall Performance Summary – A snapshot of your ratings and scores across key parameters.
+Project Contributions – Detailed evaluation of your work on assigned projects.
+Skill Assessment – Feedback from your leads and peers.
+Areas of Improvement – Constructive suggestions to help you grow further.
+Goals for Next Quarter – Targets set in alignment with your career path.
+
+We encourage you to review the report thoroughly and schedule a one-on-one session with your reporting manager if you have any questions or would like to discuss your evaluation in detail.
+
+Please note that all performance data is confidential and intended solely for your reference.
+
+
+We appreciate your hard work and dedication. Keep up the great momentum!
+
+
+Warm Regards,
+HR Department
+Smallfare`,
+    time: '11 Apr',
+    date: '11 Apr',
+    isUnread: false,
+    isStarred: true,
+    category: 'primary',
+    hasAttachment: true,
+    attachments: [
+      { type: 'pdf', name: 'Performance', url: './Preformance.pdf', size: '1MB' }
+    ]
+  },
+  {
     id: 1,
     sender: 'Bank of Maharashtra',
     senderEmail: 'alerts@bankofmaharashtra.in',
